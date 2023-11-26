@@ -15,7 +15,7 @@ path = 'my.png'
 
 def main(height = 1080, width = 1920):
     mes = b''
-    ans = b'ok'
+    ans = b'ok' #заменить true/false
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     print('--- socket instantiated ---')
     connectionSuccessful = False
